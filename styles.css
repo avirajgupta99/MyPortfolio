@@ -95,7 +95,7 @@ nav ul li a:hover::after {
 h3 {
     color: #ff004f;
     font-family: 'Castoro Titling', cursive;
-    font-size: 70px;
+    font-size: 120%;
 }
 
 
