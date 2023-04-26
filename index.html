@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aviraj Gupta</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Castoro+Titling&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/dd371af94e.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div id="Header">
+        <img class="mypic" src="images/Aviraj.png" alt="avi">
+        <div class="container">
+            <nav id="sidemenu">
+                <img class='logo' src="images/logo.PNG" alt="logo">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                    <i class="fa-solid fa-bars ficon" onclick="closemenu()"></i>
+
+                </ul>
+                <i class="fa-solid fa-xmark ficon" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+
+                <h1>Hello,</h1>
+                <h1> I'm <span>A</span>viraj <span>G</span>upta</h1>
+                <h3 class="WebFont"><strong>Web Developer.</strong></h3><br>
+
+            </div>
+        </div>
+    </div>
+
+    <!----------About_Section------------>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img class="image2" src="images/WhatsApp Image 2021-01-15 at 5.40.57 PM.jpeg" alt="asda">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p class="details">Accomplished Web/App Developement with 1.6+ Years of Professional Experience in
+                        designing and
+                        maintaining websites.
+                        Recognized for leadership and collaborative abilities when working in team settings. Motivated
+                        to provide clients with user-friendly applications. Always keens to develope more enhanced
+                        Application through innovative ideas.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')"><strong>Skills</strong></p>
+                        <p class="tab-links" onclick="opentab('experience')"><strong>Experience</strong></p>
+                        <p class="tab-links" onclick="opentab('education')"><strong>Education</strong></p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Frontend Skills</span><br>HTML, CSS, BootStrap, JavaScript</li>
+                            <li><span>Application Development</span><br>.NET, ASP.NET,JavaScript, C#, Java</li>
+                            <li><span>Tools</span><br>Atom, Visual Studios, GIT, GitHub, AzureStorage, JIRA</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2022 - Current</span><br>Application Developer at Fujitsu India</li>
+                            <li><span>2021 - 2022</span><br>Technical Service Trainee at Fujitsu India</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2017 - 2021</span><br>B.Tech from SRM Institute of Science and Technology, Chennai
+                            </li>
+                            <li><span>2016 - 2017</span><br>12th from Balaghat (M.P. Board)</li>
+                            <li><span>2014 - 2015</span><br>10th from Balaghat (M.P. Board)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- --------Servives-------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>UI/UX</h2>
+                    <p> Creative Graphic Artist and Designer with talent for developing unique custom artwork.
+                        Innovative approach to idea and concept development.
+                        Offering 2+ years of expertise overseeing individual projects and brand development collections.
+                    </p>
+                    <a href="#"> Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>Web Design</h2>
+                    <p> Proven experience
+                        developing consumer-focused websites using
+                        HTML, CSS, BootStrap, JavaScript, DOM, . Built products for
+                        desktop and mobile app users over 2+ years,
+                        meeting highest standards for web design, user
+                        experience, best practices and speed.
+                    </p>
+                    <a href="#"> Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>Application Development</h2>
+                    <p>Technically-sound Application Engineer effective in
+                        analyzing relevant information and guiding product
+                        cycle from conception to completion. Manages
+                        design effort and guides installation process for
+                        on-schedule product launches. Consults with
+                        internal and external clientele and employs
+                        additional system resources to review and enhance
+                        configuration for optimal customer satisfaction.
+                    </p>
+                    <a href="#"> Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!---------------Portfolio-------------------->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">Awsome Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img style="width:45%;" src="images/iphone6.png" alt="TinDog">
+                    <div class="layer">
+                        <h3>TinDog Webpage</h3>
+                        <p class="projectDes">Complete Webpage describing your love towards Dog throung TinDog
+                            Application
+                            Where you can find the love of your pet anywhere, anytime!!</p>
+                        <a href="https://avirajgupta99.github.io/Project/"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img style="width:90%;" src="images/personal.PNG" alt="OldSite">
+                    <div class="layer">
+                        <h3>Old Portfolio</h3>
+                        <p class="projectDes">Dreamy Personal Webpage which describe the passion towards Web
+                            Designing.Along with skills and projects.
+                        </p>
+                        <a href="https://avirajgupta99.github.io/portfolio/"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img style="width:105%;" src="images/dice.PNG" alt="DiceRoller">
+                    <div class="layer">
+                        <h3>Dice Roller Game</h3>
+                        <p class="projectDes">Simple and logical Dice Roller Game to decide who's the winner just by
+                            refreshing the page.</p>
+                        <a href="https://avirajgupta99.github.io/diceNew/"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+
+    <!----------Contact------------>
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Get In Touch</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>avirajgupta0099@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>(+91) 6264195836</p>
+                    <div class="social-icon">
+                        <a href="https://www.linkedin.com/in/aviraj-gupta-43a6a9160/"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/ig_illus_i0n/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://github.com/avirajgupta99"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="" class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright @ Aviraj Gupta 2023.</p>
+        </div>
+    </div>
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200";
+        }
+    </script>
+    <form name="submit-to-google-sheet">
+        <button type="submit">Send</button>
+    </form>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzAQS3orEmiQuunSwo7ORiT26hno_ID7Zex8GvHRlSKcQF7yjoCFKDq873riW8jzm_siA/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message Sent Successfully."
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 3000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
